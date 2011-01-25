@@ -1,0 +1,35 @@
+<h1><%=t('titles.conf_units.new')-%></h1>
+
+<% form_for @conf_unit do |f| %>
+
+<%= f.error_messages %>
+
+<% if @parent_conf_unit %>
+<p>
+  <label><%=t 'activerecord.attributes.conf_unit.parent' -%></label>
+  <%=h @parent_conf_unit.name %>
+  <%= f.hidden_field :parent_id %>
+</p>
+<% end %>
+
+<p>
+  <label><%=t 'activerecord.attributes.conf_unit.name' -%></label>
+  <%= f.text_field :name %>
+</p>
+
+<p>
+  <label><%=t 'activerecord.attributes.conf_unit.kind' -%></label>
+  <%= f.select :kind, CONF_UNIT_KINDS.keys.sort.map{|k| [t("conf_unit_kinds.#{k}"),k]} %>
+</p>
+
+<p>
+  <%= f.submit t('actions.create') %>
+</p>
+
+<% end %>
+
+<%= link_to t('actions.to_list'), conf_units_path -%>
+
+<% if @conf_unit.parent %>
+| <%= link_to t('actions.show_conf_unit'), conf_unit_path(@conf_unit.parent) -%>
+<% end %>

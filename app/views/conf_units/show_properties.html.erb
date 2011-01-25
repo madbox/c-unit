@@ -1,0 +1,12 @@
+<h1><%=t 'titles.conf_units.properties' -%> <%= @conf_unit.name -%></h1>
+
+<% for property_name in CONF_UNIT_KINDS[@conf_unit.kind]['fields'].map{|field|field['name']} do %>
+<p>
+  <label><%=t "conf_unit_properties.#{@conf_unit.kind}.#{property_name}" -%></label> :
+  <%= @conf_unit.property(property_name)-%>
+</p>
+<% end %>
+
+<%= link_to t('actions.to_list'), conf_units_path -%> |
+<%= link_to t('actions.show_conf_unit'), conf_unit_path(@conf_unit) -%> |
+<%= link_to t('actions.edit_properties'), edit_conf_unit_properties_path(@conf_unit) -%>

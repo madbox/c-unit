@@ -1,0 +1,23 @@
+  <li>
+    <%= root.name %>
+    
+    <% if root.broken %>
+      (<%=t 'activerecord.attributes.conf_unit.broken' -%> )
+    <% elsif parent_broken %>
+      (<%=t 'misc.parent_broken' -%> )
+    <% end %>
+
+    :
+
+    <%= link_to t('actions.show'), conf_unit_path(root) -%> : 
+    <%= link_to t('actions.edit'), edit_conf_unit_path(root) -%> : 
+    <%= link_to t('actions.destroy'), conf_unit_path(root), :method => :delete -%>
+
+    <% if root.children.size > 0 %>
+      <ul>
+      <% for child in root.children do %>
+        <%= render :partial => 'branch', :locals => {:root => child, :parent_broken => (parent_broken || root.broken)} %>
+      <% end %>
+      </ul>
+    <% end %>
+  </li>

@@ -1,0 +1,8 @@
+--- 
+space_ship: 
+  fields: 
+  - name: green_people_count
+    type: Fixnum
+default: 
+  fields: []
+

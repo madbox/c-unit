@@ -1,0 +1,19 @@
+<h1><%=t 'titles.conf_units.edit_properties' -%></h1>
+
+<% form_for 'properties', :url => update_conf_unit_properties_url do |f| %>
+
+  <%= error_messages_for 'conf_unit' %>
+
+  <% for property_definition in CONF_UNIT_KINDS[@conf_unit.kind]['fields'] do %>
+    <p>
+      <label><%=t "conf_unit_properties.#{@conf_unit.kind}.#{property_definition['name']}" -%></label>
+      <%= text_field_tag 'properties[' + property_definition['name'] + ']',  @conf_unit.property(property_definition['name'])-%>
+    </p>
+  <% end %>
+
+  <p><%= f.submit t('actions.update') %></p>
+<% end %>
+
+<%= link_to t('actions.to_list'), conf_units_path -%> |
+<%= link_to t('actions.show_conf_unit'), conf_unit_path(@conf_unit) -%> |
+<%= link_to t('actions.show_properties'), show_conf_unit_properties_path(@conf_unit) -%>

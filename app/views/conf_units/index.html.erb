@@ -1,0 +1,12 @@
+<h1><%=t 'titles.conf_units.index' -%></h1>
+
+<ul>
+  <% for root in @roots do %>
+  <%= render :partial => 'branch', :locals => {:root => root, :parent_broken => root.broken } %>
+  <% end %>
+</ul>
+
+<%= link_to t('actions.add_conf_unit'), new_conf_unit_path -%> |
+<%= link_to t('actions.generate_status_message'), status_message_path -%> |
+<%= link_to t('actions.view_configs'), view_configs_path -%> |
+<%= link_to t('actions.tech_goal'), '/tech_goal_ror.pdf' -%>

@@ -1,0 +1,3 @@
+div.flash, #errorExplanation { padding: 0.5em; }
+div.error, #errorExplanation { border: 1px solid #dcc; background-color: #fee; }
+div.notice{ border: 1px solid #cdc; background-color: #efe; }

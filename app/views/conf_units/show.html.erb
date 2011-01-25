@@ -1,0 +1,43 @@
+<h1><%=t 'titles.conf_units.show' -%></h1>
+
+<p>
+  <label><%=t 'activerecord.attributes.conf_unit.name' -%></label> : <%= @conf_unit.name -%>
+</p>
+
+<p>
+  <label><%=t 'activerecord.attributes.conf_unit.kind' -%></label> : <%=t "conf_unit_kinds.#{@conf_unit.kind}" -%>
+</p>
+
+<% if @conf_unit.parent %>
+<p>
+  <label><%=t 'activerecord.attributes.conf_unit.parent' -%></label> :
+  <%=h @conf_unit.parent.name %>
+</p>
+<% end %>
+
+<p>
+  <label><%=t 'activerecord.attributes.conf_unit.broken' -%></label> :
+  <%=t @conf_unit.broken ? 'misc.is_broken' : 'misc.is_not_broken' -%>
+  <%= @parent_broken ? "(#{t('misc.parent_broken')})" : '' -%>
+</p>
+
+<% if @children.size > 0 %>
+<p>
+  <label><%=t 'activerecord.attributes.conf_unit.children' -%></label>
+  <ul>
+    <% for child in @children do %>
+    <li><%= child.name -%></li>
+    <% end %>
+  </ul>
+</p>
+<% end %>
+
+<%= link_to t('actions.to_list'), conf_units_path -%> |
+<%= link_to t('actions.edit'), edit_conf_unit_path(@conf_unit) -%> |
+<%= link_to t('actions.destroy'), conf_unit_path(@conf_unit), :method => :delete -%> |
+
+<% if CONF_UNIT_KINDS[@conf_unit.kind]['fields'].size > 0 %>
+<%= link_to t('actions.show_properties'), show_conf_unit_properties_path(@conf_unit) -%> |
+<% end %>
+
+<%= link_to t('actions.add_child'), add_child_conf_units_path(@conf_unit) -%> 
