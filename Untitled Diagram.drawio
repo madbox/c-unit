@@ -1,9 +1,183 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T07:04:05.079Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" version="21.8.2" etag="QqYd7JwegUg5IOp8QN9_" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-26T08:09:01.501Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="7HohPOBxgfa_XOf59Unt" version="21.8.2" type="github">
   <diagram name="Page-1" id="3LfvS937DJtHsgG3JjyU">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-48" value="Система управления частными и гибридными облачными сервисами" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="300" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-3" value="Открытый контур" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="610" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-10" value="Закрытый контур" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="610" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-15" value="Специализированные&amp;nbsp; контуры" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="610" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-16" value="Система управления частными и гибридными облачными сервисами" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="330" width="515" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-17" value="Локальный контроллер облака" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="400" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bSt5jZ9sm7MlLvyBAsHf-20" target="bSt5jZ9sm7MlLvyBAsHf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-20" value="Вычислительные мощности" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bSt5jZ9sm7MlLvyBAsHf-21" target="bSt5jZ9sm7MlLvyBAsHf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-21" value="Системы хранения" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bSt5jZ9sm7MlLvyBAsHf-22" target="bSt5jZ9sm7MlLvyBAsHf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-22" value="Сетевая инфраструктура" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-23" value="Деление на сегменты и контуры безопасности" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="640" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-24" value="Системы виртуализации" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="560" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-25" value="Обеспечение ИБ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="500" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-26" value="Инфраструктурное ПО" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="530" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-28" value="Системы виртуализации" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="560" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-29" value="Обеспечение ИБ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-34" value="Системы виртуализации" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="560" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-35" value="Обеспечение ИБ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="500" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-36" value="Инфраструктурное ПО" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="530" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-37" value="Инфраструктура" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="10" y="690" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-38" value="Виртуализация и инфраструктурное ПО*" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="65" y="505" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-40" value="Инфраструктурное ПО" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="530" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-41" value="&lt;p style=&quot;font-size: 17px; line-height: 120%;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;* Инфраструктурное ПО&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;ul style=&quot;line-height: 120%;&quot;&gt;&lt;li&gt;Мониторинг&lt;/li&gt;&lt;li&gt;Резервное копирование&lt;/li&gt;&lt;li&gt;Управление инцидентами/SLA&lt;/li&gt;&lt;li&gt;и т.д.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="40" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-42" value="Локальный контроллер облака" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="400" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-45" value="Локальный контроллер облака" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="400" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-46" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-47" value="Собственные ЦОД" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="800" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-49" value="Внешняя / &quot;партнерская&quot; инфраструктура" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="800" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-50" value="Колокейшн" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="610" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-51" value="IaaS" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="560" width="50" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-52" value="IaaS+" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="490" width="50" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-53" value="PaaS" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="60" width="50" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-55" value="Общие и/или разделяемые&lt;br&gt; Базовые сервисы" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="64.37" y="175.63" width="111.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-56" value="СУБД" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="193.75" y="215" width="142.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-57" value="Облачные системы хранения" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="142.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-58" value="Распределенные блочные устройства" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="215" width="142.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-59" value="Клиентский прикладной мониторинг" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="193.75" y="170" width="142.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-60" value="DevOps конвейеры" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="142.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-61" value="Клиентские средства обеспечения ИБ" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="142.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bSt5jZ9sm7MlLvyBAsHf-62" target="bSt5jZ9sm7MlLvyBAsHf-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-62" value="Средства обеспечения ИБ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-64" value="Системы контейнеризации" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="470" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-65" value="Системы контейнеризации" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="470" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-66" value="Системы контейнеризации" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="470" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-67" value="Брокеры сообщений" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="50" width="142.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-68" value="Клиентское резервное копирование" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="142.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-69" value="SSO" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="142.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-70" value="Общие и/или разделяемые&lt;br&gt;Прикладные сервисы" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="70" y="60" width="101.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-71" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-72" value="Портал администрирования" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="290" width="129.38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-73" value="Клиентская панель управления сервисами" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361.88" y="290" width="129.38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-74" value="Оркестратор" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="290" width="86.88" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-75" value="Биллинг" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="601.88" y="290" width="86.88" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-76" value="Локальный контроллер облака" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="400" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-79" value="Инфраструктурная часть облака" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-68.43" y="460" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSt5jZ9sm7MlLvyBAsHf-80" value="Прикладная часть облака" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-108.42999999999999" y="180" width="320" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
